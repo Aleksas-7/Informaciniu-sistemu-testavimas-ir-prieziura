@@ -1,0 +1,117 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1.4rem;
+}
+
+body {
+    background-color: black;
+}
+
+:root {
+    --col1: #DCDCDC;
+    --col2: #A9A9A9;
+    --col3: #696969;
+    --col4: #708090;
+    --col5: #2F4F4F;
+    --colbg: black;
+    --colborder: white;
+}
+
+#header {
+    width: 100%;
+    background-color: var(--col2);
+    padding: 15px;
+
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+#anketa {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+#duomenu-anketa {
+    width: auto;
+}
+
+/* Pagrindinis anketos duom blokas */
+#anketa .duom-ivedimas {
+    padding: 8px;
+    margin: 2px;
+    background-color: var(--colbg);
+    text-align: center;
+
+    border-radius: 10px;
+    border-color: var(--colborder);
+    border: solid 2px;
+    color: var(--colborder);
+}
+
+input[type="submit"], input[type="button"] {
+    width: 100%;
+    margin-top: 10px;
+}
+
+#res {
+    padding: 15px;
+    display: flex;
+    margin-bottom: 25px;
+    color: white;
+}
+
+#res #info {
+    padding: 3px;
+    text-align: right;
+    padding-right: 20px;
+}
+
+#res #results {
+    display: block;
+    height: auto;  
+    padding-top: 0.12rem;  
+}
+
+select {
+    width: 80%;
+}
+input[type="date"]{
+    width: 80%;
+}
+
+
+#bshowinfo {
+    display: none;
+}
+
+
+@media screen and (max-width: 600px) {
+
+    * {
+        font-size: 1.2rem;
+    }
+
+    #duom-anketa {
+        width: 100%;
+    }
+
+    #anketa .duom-ivedimas {
+        width: 100%;
+    }
+}
+
+
+@media screen and (max-width: 400px) {
+    * {
+        font-size: 1rem;
+    }
+
+    #anketa .duom-ivedimas {
+        width: 100%;
+    }
+}

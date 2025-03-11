@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Duomenų anketa</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js"></script>
+</head>
+<body>
+    <div id="anketa">
+        <form id="duomenu-anketa">
+            <div class="duom-ivedimas">
+                <input type="radio" name="gender" id="female" value="Female">
+                <label for="female">Female</label>
+                <br>
+                <input type="radio" name="gender" id="male" value="Male">
+                <label for="male">Male</label>
+            </div>
+            <div class="duom-ivedimas">
+                <label for="fname">First name: </label><br>
+                <input type="text" name="fname" id="inp_fname">
+                <br>
+                <label for="mname">Middle name: </label><br>
+                <input type="text" name="mname" id="inp_mname" placeholder="Can be left empty">
+                <br>
+                <label for="lname">Last name: </label><br>
+                <input type="text" name="lname" id="inp_lname">
+            </div>
+            <div class="duom-ivedimas">
+                <label for="birthday_date">You date of birth: </label><br>
+                <input type="date" name="birthday_date" id="inp_birthday">
+            </div>
+            <div class="duom-ivedimas">
+                <label for="personal_code">Personal code:</label><br>
+                <input type="number" name="personal_code" id="inp_presCode">
+            </div>
+            <div class="duom-ivedimas">
+                <label for="education">Education level:</label><br>
+                <select id="education" name="education">
+                    <option value="Basic education">Basic education</option>
+                    <option value="Secondary education">Secondary education</option>
+                    <option value="Vocational education">Vocational education</option>
+                    <option value="Higher college education">Higher college education</option>
+                    <option value="University education">Higher university education</option>
+                </select>
+            </div>
+            <div class="duom-ivedimas">
+                <label for="phone">Phone number:</label><br>
+                <input type="tel" name="phone" id="phone">
+            </div>
+            <div class="duom-ivedimas">
+                <label for="email">Email:</label><br>
+                <input type="email" name="email" id="email">
+            </div>
+            <div class="duom-ivedimas">
+                <label for="Address">Address:</label><br>
+                <input type="text" name="address" id="address" placeholder="City, Street, House nr.">
+            </div>
+            <div class="duom-ivedimas">
+                <label for="martial_status">Martial status:</label><br>
+                <select id="martial_status" name="martial_status">
+                    <option value="Single">Single</option>
+                    <option value="Married">Married</option>
+                    <option value="Divorced">Divorced</option>
+                </select>
+
+            </div>
+            <div class="duom-ivedimas">
+                <label for="professional_pos">Professional position:</label><br>
+                <select id="professional_pos" name="professional_pos">
+                    <option value="Studying">Studying</option>
+                    <option value="Working">Working</option>
+                    <option value="Not working">Not working</option>
+                    <option value="Maternity vacation">Maternity vacation</option>
+                    <option value="Paternity vacation">Paternity vacation</option>
+                </select>
+            </div>
+            <div class="duom-ivedimas">
+                <label for="work_exp">Work experience:</label><br>
+                <input type="number" name="work_exp" id="work_exp" maxlength="2" pattern="/d{2}">
+            </div>
+            <div class="duom-ivedimas">
+                <label for="field_of_work">Field of work:</label><br>
+                <select id="field_of_work" name="field_of_work">
+                    <option value="Law">Law</option>
+                    <option value="Public sector">Public Sector</option>
+                    <option value="Healthcare">Healthcare</option>
+                    <option value="Pharmaceutical">Pharmaceutical</option>
+                    <option value="Industry/manufacturing">Industry/Manufacturing</option>
+                    <option value="IT">IT</option>
+                    <option value="Trade">Trade</option>
+                    <option value="National defense">National Defense</option>
+                    <option value="Internal affairs">Internal Affairs</option>
+                    <option value="System">System</option>
+                    <option value="Customer service and services">Customer Service and Services</option>
+                    <option value="Transport">Transport</option>
+                    <option value="Culture and entertainment">Culture and Entertainment</option>
+                    <option value="Education/study">Education/Study</option>
+                </select>
+            </div>
+            <input type="submit" value="submit">
+        </form>
+        
+        <input type="button" value="Show your inputed information" id="bshowinfo">
+        <div id="res">
+            <div id="info"></div>
+            <div id="results"></div>
+        </div>
+    </div>
+</body>
+</html>
