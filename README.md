@@ -5,3 +5,6 @@ Darbas 1: Unit tests <br>
 
 Darbas 2: Fill any form with selenium <br>
 [2 Darbo kodas](Darbas2)
+
+Darbas 3: Suninjuly automatic form filling with selenium <br>
+[3 Darbo kodas](Darbas3)
