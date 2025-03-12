@@ -13,3 +13,6 @@ Darbas 4: <br>
 1. Explicitly wait for a set price <br>
 2. Two Forms (from Suninjuly), make first pass and second fail assertion <br>
 [4 Darbo kodas](Darbas4)
+
+Darbas 5: (Suninjuly) registration forms testing with 'pytest' <br>
+[5 Darbo kodas](Darbas5)
