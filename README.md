@@ -9,5 +9,7 @@ Darbas 2: Fill any form with selenium <br>
 Darbas 3: Suninjuly automatic form filling with selenium <br>
 [3 Darbo kodas](Darbas3)
 
-Darbas 4: Two Forms (from Suninjuly), make first pass and second fail assertion <br>
+Darbas 4: <br>
+1. Explicitly wait for a set price <br>
+2. Two Forms (from Suninjuly), make first pass and second fail assertion <br>
 [4 Darbo kodas](Darbas4)
