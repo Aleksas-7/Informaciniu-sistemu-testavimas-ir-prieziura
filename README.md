@@ -1,5 +1,8 @@
 # Informaciniu-sistemu-testavimas-ir-prieziura
 
+
+
+Čia yra pateikti kurso (Informaciniu sistemų testavimas ir priežiūra) praktinių darbų kodai:<br><br>
 Darbas 1: Unit tests <br>
 [1 Darbo kodas](1_darbas)
 
